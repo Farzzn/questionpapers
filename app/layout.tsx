@@ -16,6 +16,11 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
+        <head>
+        {/* Google AdSense Verification */}
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2342461161672968"
+          crossOrigin="anonymous"></script>
+      </head>
       <body className="bg-gray-100 text-gray-900">
         {/* Define Header Element of App Layout */}
         <header className="bg-gray-900 text-white shadow">
